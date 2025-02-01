@@ -8,7 +8,7 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 
 
 
-## REQUIRED PARTS
+## Required Parts
 
 | Part name         | Count | Description and sites I bought from                                                                                                          |
 | :---------------- | :---: | :------------------------------------------------------------------------------------------------------------------------------------------- |
