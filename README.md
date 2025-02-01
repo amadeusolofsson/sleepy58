@@ -1,12 +1,13 @@
-# sleepy58
-A low-profile 4x6 keyboard with a 5-key thumb cluster. It uses [ZMK](https://github.com/zmkfirmware/zmk) together with the Seeed Studio XIAO BLE nRF52840.
+### sleepy58
+# A low-profile 4x6 orthocolumnar wireless keyboard with a 5-key thumb cluster. 
+It uses [ZMK](https://github.com/zmkfirmware/zmk) together with the Seeed Studio XIAO BLE nRF52840.
 I created it using [ergogen](https://github.com/ergogen/ergogen). Putting the pcb file into kiCad and routing it.
 I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/main) footprints for ergogen.
 
 
 
 
-### REQUIRED PARTS
+## REQUIRED PARTS
 
 | Part name         | Count | Description and sites I bought from                                                                                                          |
 | :---------------- | :---: | :------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,3 +21,8 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 | Lipo battery      |  02   | Small battery https://www.electrokit.com/batteri-lipo-3.7v-380mah                                                                            |
 | Rubber feet       |  16   | Since no case https://www.electrokit.com/3m-bumpon-gummifot-6.4x1.9mm-8-pack                                                                 |
 | Dongle casing     |  01   | Optional casing for dongle https://www.printables.com/model/522586-seeed-xiao-ble-case                                                       | 
+
+
+
+## Licenses and recognition
+TBD. A lot of random other keyboards I looked at for examples.
