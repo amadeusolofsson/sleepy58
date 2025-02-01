@@ -1,7 +1,15 @@
 name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
-    paths-ignore:
-      - '**.md'
+on:
+    pull_request:
+    workflow_dispatch:
+    push:
+        paths:
+        - 'build.yaml'
+        - 'config/**'
+        - 'boards/**'
+
+
+
 
 jobs:
   build:
