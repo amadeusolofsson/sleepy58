@@ -1,0 +1,267 @@
+units:
+  # Proxy Spacing Variables
+  kx: cx
+  ky: cy
+  # Padding Variables
+  px: kx + 1
+  py: ky + 1
+
+points:  
+  zones:
+    # Main 4x6 matrix
+    matrix:
+      anchor:
+        shift: [100,-100]
+      key:
+        padding: 1ky
+        spread: 1kx
+      columns:   
+        outer:
+          key:
+            column_net: C0       
+            stagger: 0
+        pinky:
+          key:
+            column_net: C1
+            stagger: 2.5
+        ring:
+          key:
+            column_net: C2         
+            stagger: 5
+        middle:
+          key:
+            column_net: C3
+            stagger: -5
+        index:
+          key:
+            column_net: C4          
+            stagger: -10
+        inner:
+          key:
+            column_net: C5            
+            stagger: -2.5
+      rows:
+        bottom:
+          row_net: R1
+        home:
+          row_net: R2   
+        top:
+          row_net: R3   
+        num:
+          row_net: R4
+       
+    thumb1:   
+      anchor:
+        shift: [100,-100]   
+      key:
+        row_net: R0  
+        column_net: C4                
+        shift: [-20,-10]
+        rotate: 20
+    thumb2:
+      anchor:
+        shift: [100,-100]    
+      key:
+        row_net: R0  
+        column_net: C3
+        shift: [-38.1,-18.1]
+        rotate: 30
+    thumb3:
+      anchor:
+        shift: [100,-100]
+      key:
+        row_net: R0  
+        column_net: C2
+        shift: [-55,-29.5]
+        rotate: 40
+    thumb4:
+      anchor:
+        shift: [100,-100]
+      key:
+        row_net: R0  
+        column_net: C1
+        shift: [-27,-33.5]
+        rotate: 25
+    thumb5:
+      anchor:
+        shift: [100,-100]    
+      key:
+        row_net: R0  
+        column_net: C0
+        shift: [-45,-45]
+        rotate: 40
+
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5,ky-0.5]   
+  sleepy58:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_num
+          shift: [-0.5px+0.5, 0.76py] 
+        - ref: matrix_outer_num
+          shift: [0.5px, 0.76py]
+        - ref: matrix_pinky_num
+          shift: [-0.5px+1.010101, 0.5py] 
+        - ref: matrix_pinky_num
+          shift: [0.5px-1, 0.5py]
+        - ref: matrix_ring_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_num
+          shift: [0.5px, 0.5py]          
+        - ref: matrix_middle_num
+          shift: [-0.5px+1, 0.5py]          
+        - ref: matrix_index_num
+          shift: [-0.5px, 1+1py]
+        - ref: matrix_index_num
+          shift: [-0.5px+1.01, 1+1py]    
+        - ref: matrix_index_num
+          shift: [-0.5px+1, 0.5py]
+        - ref: matrix_index_num
+          shift: [0.5px, 0.5py] 
+        - ref: matrix_inner_num
+          shift: [-0.5px+1, 0.5py]                                        
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.5py]
+        
+
+        - ref: matrix_inner_bottom
+          shift: [0.5px, -0.5py]
+        - ref: matrix_inner_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_index_bottom
+          shift: [0.5px-1, -0.5py]
+
+        - ref: matrix_index_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_middle_bottom
+          shift: [0.5px-1, -0.5py]        
+        - ref: matrix_middle_bottom
+          shift: [-0.5px, -0.5py] 
+        - ref: matrix_ring_bottom
+          shift: [0.5px-1, -0.5py] 
+        - ref: matrix_ring_bottom
+          shift: [-0.5px+1, -0.5py] 
+        - ref: matrix_pinky_bottom
+          shift: [0.5px, -0.5py] 
+        - ref: matrix_pinky_bottom
+          shift: [-0.5px+1, -0.5py] 
+        - ref: matrix_outer_bottom
+          shift: [0.5px, -0.5py] 
+        - ref: matrix_outer_bottom
+          shift: [-0.5px-0.9, -0.5py] 
+
+        - ref: thumb1
+          shift: [0.5px, -0.5py]
+        - ref: thumb1
+          shift: [-0.32px, -0.5py] 
+        - ref: thumb4
+          shift: [.5px, 0.py]
+
+        - ref: thumb4
+          shift: [0.5px, -0.py]
+          
+        - ref: thumb4
+          shift: [0.5px, -.5py]
+        - ref: thumb4
+          shift: [-0.5px, -0.5py] 
+        - ref: thumb5
+          shift: [-0.5px, -0.51py]
+        - ref: thumb3
+          shift: [-0.62px, -0.51py] 
+        - ref: thumb3
+          shift: [-0.5px, -0.52py]
+ 
+
+        - ref: thumb3
+          shift: [-0.505px, 0.505py]
+        - ref: thumb3
+          shift: [0.59px, .49py] 
+        - ref: thumb3
+          shift: [0.7px, .445py]                                       
+
+        - ref: matrix_outer_num
+          shift: [-1.8px, -3.15py]
+
+        - ref: matrix_outer_num
+          shift: [-1.8px, 0.5py]
+        - ref: matrix_outer_num
+          shift: [-0.5px+0.5, 0.5py]          
+      fillet: 1
+  combo:
+    - name: sleepy58
+    - operation: subtract
+      name: keys      
+
+pcbs:
+  sleepy58:
+    outlines:
+      main:
+        outline: sleepy58
+    footprints:
+      choc:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: true
+          hotswap: false
+          from: "{{column_net}}"
+          to: "{{colrow}}"   
+      diodest:
+        what: ceoloide/diode_tht_sod123
+        where: true
+        params:
+          via_drill: 0.4
+          reversible: true
+          include_traces_vias: true
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]                            
+      xiao_flippable:
+        what: xiao_ble_smd_reversible
+        where:
+          ref: matrix_outer_num
+          shift: [-1.1px,-0.1px]
+        params:
+          D0: "C0"
+          D1: "C1"
+          D2: "C2"
+          D3: "C3"
+          D4: "C4"
+          D5: "C5"
+          D6: "R0"
+          D7: "R1"
+          D8: "R2"
+          D9: "R3"
+          D10: "R4"  
+          GND: "GND"
+          BATP: "XBAT+"        
+      jstph:
+        what: ceoloide/battery_connector_jst_ph_2
+        params:
+          reversible: true
+          BAT_P: "BBAT+"
+          BAT_N: "GND"
+         
+        where:
+            ref: matrix_outer_num
+            shift: [-1.1px,-2.4px]
+            rotate: 180
+
+
+
+      switch:
+        what: ceoloide/power_switch_smd_side
+        where:
+            ref: matrix_outer_num
+            shift: [0px, 0.61px]
+            rotate: 90
+        params:
+            reversible: true
+            from: "XBAT+"
+            to: "BBAT+"
