@@ -1,9 +1,8 @@
-name: Build ZMK firmware
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      user_config: ./zmk-config
-    secrets: inherit
+    defaults:
+      run:
+        working-directory: ./zmk-config
+        uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
