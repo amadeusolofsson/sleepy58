@@ -1,5 +1,6 @@
 # sleepy58
-A low-profile 4x6 keyboard with a 5-key thumb cluster. 
+A low-profile 4x6 keyboard with a 5-key thumb cluster. It uses ZMK together with the Seeed Studio XIAO BLE nRF52840.
+I created it using [ergogen](https://github.com/ergogen/ergogen). Putting the pcb file into kiCad and routing it.
 
 
 
