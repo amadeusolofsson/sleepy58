@@ -12,3 +12,4 @@ include:
     
   - board: seeeduino_xiao_ble
     shield: sleepy58_dongle
+    
