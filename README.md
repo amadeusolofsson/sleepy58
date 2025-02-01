@@ -1,5 +1,5 @@
 # sleepy58
-# NOT TESTED YET IN THIS STAGE. PROBABLY DOESN'T WORK
+# NOT TESTED YET AT THIS STAGE. PROBABLY DOESN'T WORK
 
 ## A low-profile 4x6 orthocolumnar wireless keyboard with a 5-key thumb cluster. 
 It uses [ZMK](https://github.com/zmkfirmware/zmk) together with the Seeed Studio XIAO BLE nRF52840.
