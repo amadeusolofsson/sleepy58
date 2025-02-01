@@ -1,0 +1,11 @@
+file_format: "1"
+id: sleepy58
+name: sleepy58
+type: shield
+url: https://github.com/amadeusolofsson/sleepy58
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - sleepy58_left
+  - sleepy58_right

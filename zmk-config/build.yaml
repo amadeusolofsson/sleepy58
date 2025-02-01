@@ -1,0 +1,15 @@
+include:
+  - board: seeeduino_xiao_ble
+    shield: sleepy58_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    
+  - board: seeeduino_xiao_ble
+    shield: sleepy58_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    
+  - board: seeeduino_xiao_ble
+    shield: sleepy58_dongle
+    
