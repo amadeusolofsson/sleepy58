@@ -1,5 +1,4 @@
 # sleepy58
-# NOT TESTED YET AT THIS STAGE. PROBABLY DOESN'T WORK
 
 ## A low-profile 4x6 orthocolumnar wireless keyboard with a 5-key thumb cluster. 
 It uses [ZMK](https://github.com/zmkfirmware/zmk) together with the Seeed Studio XIAO BLE nRF52840.
@@ -26,5 +25,9 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 
 
 
-## Licenses and recognition
-TBD. A lot of random other keyboards I looked at for examples.
+## Recognitions and thanks
+Massive thanks to Ben Vallack and Christian Selig for inspiration.
+@GEIGEIGEIST & @Pipshag as great examples to compare my own keyboard with for when I got stuck on a specific part.
+And thanks to the ZMK & Absolem Club discords and it's members who helped me with my stupid questions<3
+
+ 
