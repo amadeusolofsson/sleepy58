@@ -12,7 +12,7 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 
 | Part name           | Count | Description and sites I bought from (Many swedish ones, just use something equivalent)                                                          |
 | :-------------------| :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------|
-| PCBs                |   2   | Flippable so only two needed.                                                                                                                   |
+| PCBs                |   2   | Flippable so only two needed. (I bought from JLCPCB, lead-free, 2 layers)                                                                       |
 | XIAO Wireless MCUs  |   3   | 1 each side (+1 if you want to use as dongle) https://www.digikey.se/en/products/detail/seeed-technology-co-ltd/102010448/16652893?so=90838492  |
 | Choc Switches v1    |  58   | 58 Low Profile Choc switches (29 for each hand) https://splitkb.com/products/ambients-kailh-low-profile-choc-switches?variant=48116119830875    |
 | diodes 1N4148W      |  58   | 58 SOD123 SMD Diodes https://www.digikey.se/en/products/detail/diodes-incorporated/1N4148W-7-F/814371?so=9083849                                |
@@ -20,7 +20,7 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 | Power Switches      |   2   | For switching battery power https://www.electrokit.com/en/skjutomkopplare-mini-1-pol-on-on-smd                                                  |
 | JST Plugs           |   2   | For connecting battery easily https://www.electrokit.com/stiftlist-ph-2-pol-2.0mm-vinklad-1                                                     |
 | Lipo batteries      |   2   | Small battery https://www.electrokit.com/batteri-lipo-3.7v-380mah                                                                               |
-| Rubber feet         |  8    | Since no case https://www.electrokit.com/3m-bumpon-gummifot-6.4x1.9mm-8-pack                                                                     |
+| Rubber feet         |  8    | Since no case https://www.electrokit.com/3m-bumpon-gummifot-6.4x1.9mm-8-pack                                                                    |
 | Dongle casing       |   1   | Optional casing for dongle https://www.printables.com/model/522586-seeed-xiao-ble-case                                                          | 
 
 
