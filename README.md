@@ -28,6 +28,6 @@ I used some of [ceoloide's](https://github.com/ceoloide/ergogen-footprints/tree/
 ## Recognitions and thanks
 Massive thanks to Ben Vallack and Christian Selig for inspiration.
 @GEIGEIGEIST & @Pipshag as great examples to compare my own keyboard with for when I got stuck on a specific part.
-And thanks to the ZMK & Absolem Club discords and it's members who helped me with my stupid questions<3
+And thanks to the ZMK & Absolem Club discords and it's members who helped me with my stupid questions :)
 
  
