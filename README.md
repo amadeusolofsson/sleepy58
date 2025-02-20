@@ -1,4 +1,4 @@
-# sleepy58
+# sleepy58 (WARNING. DONGLE STILL NOT WORKING PERFECTLY FIRMWARE. AND MY THUMB CLUSTER IS FUCKED AND IS WIRED HORRIBLY AND DOESN'S WORK CORRECTLY. NEED TO FIX ERGOGEN. ALSO THE THUMBS ARE VERY UNCOMFORTABLE)
 
 ## A low-profile 4x6 orthocolumnar wireless keyboard with a 5-key thumb cluster. 
 It uses [ZMK](https://github.com/zmkfirmware/zmk) together with the Seeed Studio XIAO BLE nRF52840.
